@@ -3,6 +3,7 @@ package uk.ac.bham.student.week2_solution;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -21,8 +22,9 @@ public class MainActivity extends AppCompatActivity {
         TextView textView =(TextView)findViewById(R.id.text);
         Spinner spinner =(Spinner)findViewById(R.id.spinner);
         long selectedItemId = spinner.getSelectedItemId();
-        if(selectedItemId==0) textView.setText("Hello !");
-        else if (selectedItemId==1) textView.setText("Hello Zhuang !");
-        else if (selectedItemId==2) textView.setText("Hello Zhuang Ma !");
+        String[] spinOpts = getResources().getStringArray(R.array.hi);
+        if(selectedItemId==0) textView.setText(spinOpts[(int) selectedItemId]);
+        else if (selectedItemId==1) textView.setText(spinOpts[(int) selectedItemId]);
+        else if (selectedItemId==2) textView.setText(spinOpts[(int) selectedItemId]);
     }
 }

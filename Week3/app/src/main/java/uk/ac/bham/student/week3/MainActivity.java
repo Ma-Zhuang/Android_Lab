@@ -1,10 +1,8 @@
-package uk.ac.bham.student.week2_solution;
+package uk.ac.bham.student.week3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Spinner;
 import android.widget.TextView;

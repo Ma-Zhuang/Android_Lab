@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Week2_solution</string>
+    <string name="hello">Hello Zhuang Ma</string>
+    <string-array name="spinneroptions">
+        <item>Greeting 1</item>
+        <item>Greeting 2</item>
+        <item>Greeting 3</item>
+    </string-array>
+
+    <string-array name="hi">
+        <item>Hello !</item>
+        <item>Hello Zhuang !</item>
+        <item>Hello Zhuang Ma !</item>
+    </string-array>
+</resources>

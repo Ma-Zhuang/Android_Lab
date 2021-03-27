@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Week7_Bundles_and_Threads"

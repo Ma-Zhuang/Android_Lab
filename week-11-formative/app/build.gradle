@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "cs.bham.ac.uk.mainactivity"
+        applicationId 'cs.bham.ac.uk.typo'
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1

@@ -16,4 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void click(View view){
+        EditText editText = findViewById(R.id.editTextYourStuff);
+        TextView textView = findViewById(R.id.coolTV);
+        textView.setText(editText.getText().toString());
+    }
 }
